@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "whisper-emotion-recognition"
+version = "0.1.0"
+description = "Speech emotion recognition using Whisper Large V3"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0"}
+transformers = "^4.44.2"
+torch = "^2.4.1"
+librosa = "^0.10.1"
+numpy = "^1.24.3"
+soundfile = "^0.12.1"
+python-multipart = "^0.0.6"
+datasets = "^3.0.0"
+tokenizers = "^0.19.1"
+accelerate = "^0.25.0"
+scipy = "^1.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
