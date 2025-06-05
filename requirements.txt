@@ -1,12 +1,14 @@
-fastapi
-uvicorn
-transformers
-torch
-libros
-numpy
-soundfile
-python-multipart
-datasets
-tokenizers
-accelerate
-scipy
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+transformers==4.44.2
+torch==2.4.1+cpu
+torchaudio==2.4.1+cpu
+librosa==0.10.1
+numpy==1.24.3
+soundfile==0.12.1
+python-multipart==0.0.6
+datasets==3.0.0
+tokenizers==0.19.1
+accelerate==0.25.0
+scipy==1.11.4
+--index-url https://download.pytorch.org/whl/cpu
